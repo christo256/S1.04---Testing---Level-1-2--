@@ -6,39 +6,51 @@ import java.util.List;
 
 public class Library {
 
-    private List<String> books;
+    private List<Book> books;
 
-    public Library () {
+    public Library() {
         this.books = new ArrayList<>();
     }
 
     public List<String> getBooks() {
-        return new ArrayList<>(books);
-    }
-public void addBook(String title){
-    if (!books.contains(title)){
-        books.add(title);
-        Collections.sort(books);
+        List<String> titles = new ArrayList<>();
+        for (Book book : books) {
+            titles.add(book.getTitle());
         }
+        return titles;
     }
 
-    public void addBookPosition(String title, int position) {
-        if (!books.contains(title)) {
-            books.add(position, title);
+    public void addBook(String title) {
+        if (title == null || title.isEmpty()) {
+            throw new IllegalArgumentException("Book title cannot be null or empty");
         }
+        Book newBook = new Book(title);
+        if (books.contains(newBook)) {
+            throw new IllegalArgumentException("Book with title '" + title + "' already exists");
+        } else books.add(newBook);
+        sortBooks();
     }
 
-        public String getAddBookPosition(int index) {
-            return books.get(index);
+    public String getBookTitleAtPosition(int position) {
+        if (position < 0 || position >= books.size()) {
+            throw new IndexOutOfBoundsException("Invalid position");
         }
-
-        public void removeBook(String title) {
-        books.remove(title);
-        Collections.sort(books);
-
-
-
-
+        return books.get(position).getTitle();
     }
 
+    public void removeBook(String title) {
+        if (title == null || title.isEmpty()) {
+            throw new IllegalArgumentException("Book title cannot be null or empty");
+        }
+        Book bookToRemove = new Book(title);
+        boolean removed = books.remove(bookToRemove);
+        if (!removed) {
+            throw new IllegalArgumentException("Book with title '" + title + "' not found");
+        }
+        sortBooks();
+    }
+
+    private void sortBooks() {
+        Collections.sort(books, (b1, b2) -> b1.getTitle().compareToIgnoreCase(b2.getTitle()));
+    }
 }
