@@ -12,5 +12,4 @@ public class CalculateDni {
         return lettersDNI[letter];
     }
 
-
 }
