@@ -14,6 +14,7 @@ public class AssertionEqualDifferent {
         assertThat(a).isEqualTo(b);
         System.out.println(a + " and " + b + " are equals. " + "Test passed correctly");
     }
+
     @Test
     void testIntegerAreNotEquals() {
         int a = 10;

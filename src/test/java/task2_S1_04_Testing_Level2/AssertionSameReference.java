@@ -14,6 +14,6 @@ public class AssertionSameReference {
         assertThat(obj1).isSameAs(obj2);
         System.out.println(obj1 + " is the same as: " + obj2 + " Test passed Correctly.");
         assertThat(obj2).isNotSameAs(obj3);
-        System.out.println(obj2+ " is not the same as: " + obj3 + " Test passed Correctly.");
+        System.out.println(obj2 + " is not the same as: " + obj3 + " Test passed Correctly.");
     }
 }
