@@ -18,6 +18,7 @@ public class MapTest {
         ages.put("Juan", 35);
         ages.put("Ricardo", 28);
 
+
         assertThat(ages).containsKey("Juan");
         assertThat(ages).containsKeys("Juan", "Ricardo");
         System.out.println("Test passed correctly");
