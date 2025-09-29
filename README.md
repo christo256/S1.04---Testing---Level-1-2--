@@ -86,6 +86,14 @@ The exercises follow best practices from Sprint 0, using Maven as the build tool
 
 ---
 
+## 📋 Requirements
+- **Java 17+**
+- **Maven 3.8+**
+- IDE (IntelliJ IDEA recommended)  
+- Git
+
+---
+
 ## 💻 Technologies Used
 
 - Java 17+
@@ -97,10 +105,31 @@ The exercises follow best practices from Sprint 0, using Maven as the build tool
 
 ---
 
-## 🚀 How to Compile and Run
+## 🚀 How to Compile and Run (Installation)
 
-1. **Clone the repository:**
+1.  **Clone the Repository:**
+    Open your terminal or command line and execute:
+    ```bash
+    git clone https://github.com/christo256/S1.04---Testing---Level-1-2--
+    cd S1.04---Testing---Level-1-2--
+    ```
+2.  **Verify Dependencies (Maven):**
+    Ensure you have Maven installed and configured. Maven will automatically download all necessary dependencies (**JUnit, AssertJ**) when you compile or run the tests.
 
-   ```bash
-   git clone https://github.com/christo256/S1.04---Testing---Level-1-2--
-   cd S1.04---Testing---Level-1-2--
+---
+
+## ▶️ Execution
+
+Since the main purpose of this project is to **validate code via unit tests**, the core execution involves **compiling the project and running the tests** using Maven.
+
+1.  **Compile the Project:**
+    Use the following command to compile the source code and test classes, and download necessary dependencies:
+    ```bash
+    mvn clean compile
+    ```
+2.  **Run Unit Tests:**
+    Execute all tests defined in `src/test/java` to verify the functionality of the Level 1 and Level 2 exercises:
+    ```bash
+    mvn test
+    ```
+    * **Result:** Maven will display a detailed summary of the tests run, including the number of passing, failing, and skipped tests. The execution is successful if all tests pass.
