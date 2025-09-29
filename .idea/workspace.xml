@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5790ca62-8776-45d5-9051-a4cab3014674" name="Changes" comment="test: add unit test for Optional.empty() to verify it is empty">
+      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/task4_S1_04_Testing_Level2/MapTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="32rrio31NbSS846f5AMT6eT11YQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ArrayExampleTest.executor": "Run",
+    "JUnit.ArrayExceptionTest.executor": "Run",
+    "JUnit.ArrayExceptionTest.testTryingArrayIndexOutOfBoundsException.executor": "Run",
+    "JUnit.ArrayListTest.executor": "Run",
+    "JUnit.ArrayListTest.testArrayListAssertions.executor": "Run",
+    "JUnit.AssertionArraysAreTheSame.executor": "Run",
+    "JUnit.AssertionEqualDifferent.executor": "Run",
+    "JUnit.AssertionSameReference.executor": "Run",
+    "JUnit.CalculateDniTest.executor": "Run",
+    "JUnit.CalculateDniTest.testCalculateDNI.executor": "Run",
+    "JUnit.CalculateDniTest.testCalculateDNI_Simple.executor": "Run",
+    "JUnit.LibraryTest.executor": "Run",
+    "JUnit.OptionalTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.CalculateDniTest">
+    <configuration name="ArrayExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task6_S1_04_Testing_Level2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task6_S1_04_Testing_Level2" />
+      <option name="MAIN_CLASS_NAME" value="task6_S1_04_Testing_Level2.ArrayExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task4_S1_04_Testing_Level2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task4_S1_04_Testing_Level2" />
+      <option name="MAIN_CLASS_NAME" value="task4_S1_04_Testing_Level2.ArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest.testArrayListAssertions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task4_S1_04_Testing_Level2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task4_S1_04_Testing_Level2" />
+      <option name="MAIN_CLASS_NAME" value="task4_S1_04_Testing_Level2.ArrayListTest" />
+      <option name="METHOD_NAME" value="testArrayListAssertions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateDniTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task2_S1_04_Testing_Level1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task2_S1_04_Testing_Level1" />
+      <option name="MAIN_CLASS_NAME" value="task2_S1_04_Testing_Level1.CalculateDniTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task7_S1_04_Testing_Level2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task7_S1_04_Testing_Level2" />
+      <option name="MAIN_CLASS_NAME" value="task7_S1_04_Testing_Level2.OptionalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculateDniTest" />
+        <item itemvalue="JUnit.OptionalTest" />
+        <item itemvalue="JUnit.ArrayExampleTest" />
+        <item itemvalue="JUnit.ArrayListTest" />
+        <item itemvalue="JUnit.ArrayListTest.testArrayListAssertions" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5790ca62-8776-45d5-9051-a4cab3014674" name="Changes" comment="" />
+      <created>1758189666625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758189666625</updated>
+    </task>
+    <task id="LOCAL-00001" summary="creating class Library.java">
+      <option name="closed" value="true" />
+      <created>1758190608624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758190608624</updated>
+    </task>
+    <task id="LOCAL-00002" summary="creating class Library.java">
+      <option name="closed" value="true" />
+      <created>1758191654279</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758191654279</updated>
+    </task>
+    <task id="LOCAL-00003" summary="creating class Library.java">
+      <option name="closed" value="true" />
+      <created>1758193592427</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758193592427</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Library.java methods created correctly">
+      <option name="closed" value="true" />
+      <created>1758530715389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758530715389</updated>
+    </task>
+    <task id="LOCAL-00005" summary="LibraryTest is working correctly">
+      <option name="closed" value="true" />
+      <created>1758540601598</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758540601598</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implement CalculateDni class with character array and add parameterized tests for DNI calculation">
+      <option name="closed" value="true" />
+      <created>1758541966348</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758541966348</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding Dni's for try tessting">
+      <option name="closed" value="true" />
+      <created>1758542367376</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758542367376</updated>
+    </task>
+    <task id="LOCAL-00008" summary="creating and testing ArrayException with assertThrows">
+      <option name="closed" value="true" />
+      <created>1758620540905</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758620540905</updated>
+    </task>
+    <task id="LOCAL-00009" summary="testing assertions">
+      <option name="closed" value="true" />
+      <created>1758628733008</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758628733008</updated>
+    </task>
+    <task id="LOCAL-00010" summary="MapTest exercise created and fixing the code format.">
+      <option name="closed" value="true" />
+      <created>1759134829691</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759134829691</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: create MyObject class to use in collection tests">
+      <option name="closed" value="true" />
+      <created>1759138584398</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759138584398</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: create MyObject class to use in collection tests">
+      <option name="closed" value="true" />
+      <created>1759138632673</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759138632673</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test: verify ArrayList order, uniqueness and content with AssertJ">
+      <option name="closed" value="true" />
+      <created>1759138684989</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1759138684989</updated>
+    </task>
+    <task id="LOCAL-00014" summary="refactor: rename packages for clarity and consistency">
+      <option name="closed" value="true" />
+      <created>1759138749449</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1759138749449</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test: add unit test for Optional.empty() to verify it is empty">
+      <option name="closed" value="true" />
+      <created>1759143890438</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1759143890438</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creating class Library.java" />
+    <MESSAGE value="Library.java methods created correctly" />
+    <MESSAGE value="LibraryTest is working correctly" />
+    <MESSAGE value="Implement CalculateDni class with character array and add parameterized tests for DNI calculation" />
+    <MESSAGE value="adding Dni's for try tessting" />
+    <MESSAGE value="creating and testing ArrayException with assertThrows" />
+    <MESSAGE value="testing assertions" />
+    <MESSAGE value="MapTest exercise created and fixing the code format." />
+    <MESSAGE value="feat: create MyObject class to use in collection tests" />
+    <MESSAGE value="test: verify ArrayList order, uniqueness and content with AssertJ" />
+    <MESSAGE value="refactor: rename packages for clarity and consistency" />
+    <MESSAGE value="test: add unit test for Optional.empty() to verify it is empty" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: add unit test for Optional.empty() to verify it is empty" />
+  </component>
+</project>
