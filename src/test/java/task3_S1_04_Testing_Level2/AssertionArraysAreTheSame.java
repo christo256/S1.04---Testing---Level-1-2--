@@ -8,8 +8,8 @@ public class AssertionArraysAreTheSame {
     @Test
     void arraysAreTheSame() {
 
-        int[] array1 = {1,2,3,4,5,6};
-        int[] array2 = {1,2,3,4,5,6};
+        int[] array1 = {1, 2, 3, 4, 5, 6};
+        int[] array2 = {1, 2, 3, 4, 5, 6};
 
         assertThat(array1).isEqualTo(array2);
     }
