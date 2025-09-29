@@ -1,4 +1,4 @@
-# 📚 Sprint 0 - Java Collections, JUnit & AssertJ - Level 1 & Level 2
+# 📚 Sprint 1 - Java Collections, JUnit & AssertJ - Level 1 & Level 2
 
 ## 📄 Description
 
