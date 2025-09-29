@@ -1,4 +1,4 @@
-package task3_S1_04_Testing_Level1;
+package task3_S1_04_Level1;
 
 public class ArrayException {
     public static void gettingArrayIndexOutOfBoundsException() {

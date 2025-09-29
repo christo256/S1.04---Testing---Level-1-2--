@@ -1,7 +1,7 @@
 package task3_S1_04_Testing_level1;
 
 import org.junit.jupiter.api.Test;
-import task3_S1_04_Testing_Level1.ArrayException;
+import task3_S1_04_Level1.ArrayException;
 
 import static org.junit.jupiter.api.Assertions.*;
 

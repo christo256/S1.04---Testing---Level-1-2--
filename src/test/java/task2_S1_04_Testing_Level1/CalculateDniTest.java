@@ -3,6 +3,7 @@ package task2_S1_04_Testing_Level1;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import task2_S1_04_Level1.CalculateDni;
 
 import static org.junit.jupiter.api.Assertions.*;
 
