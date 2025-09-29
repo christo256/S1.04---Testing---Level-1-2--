@@ -103,4 +103,4 @@ The exercises follow best practices from Sprint 0, using Maven as the build tool
 
    ```bash
    git clone https://github.com/christo256/S1.04---Testing---Level-1-2--
-   cd your-repository
+   cd S1.04---Testing---Level-1-2--
