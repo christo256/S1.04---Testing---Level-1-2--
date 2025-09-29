@@ -12,15 +12,15 @@ public class CalculateDniTest {
     @ParameterizedTest
     @CsvSource({
             "12345678, Z",
-            "11111111, A",
-            "22222222, H",
-            "33333333, G",
-            "44444444, L",
-            "55555555, R",
-            "66666666, K",
-            "77777777, Y",
-            "88888888, Z",
-            "99999999, C"
+            "11111111, H",
+            "22222222, J",
+            "33333333, P",
+            "44444444, A",
+            "55555555, K",
+            "66666666, Q",
+            "77777777, B",
+            "88888888, Y",
+            "99999999, R"
     })
     void testCalculateDNI(int dniNumber, char expectedLetter) {
         char result = CalculateDni.calculateDni(dniNumber);
