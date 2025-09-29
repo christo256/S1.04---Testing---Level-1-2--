@@ -22,11 +22,12 @@ public class MyObjects {
         MyObjects myObjects = (MyObjects) obj;
         return this.name.equals(myObjects.name);
     }
-        @Override
+
+    @Override
     public int hashCode() {
         return name.hashCode();
 
-        }
+    }
 
     @Override
     public String toString() {
