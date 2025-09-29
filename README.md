@@ -4,7 +4,7 @@
 
 This repository contains exercises for **Level 1** and **Level 2** focused on Java collections, exception handling, and unit testing with **JUnit** and **AssertJ**.
 
-The exercises follow best practices from Sprint 0, using Maven as the build tool and dependency manager. All code is written in English and structured in separate packages for production and test classes.
+The exercises follow best practices from Sprint 0, using Maven as the build tool and dependency manager. All code is structured in separate packages for production and test classes.
 
 ---
 
