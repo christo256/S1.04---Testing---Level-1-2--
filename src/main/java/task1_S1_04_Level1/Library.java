@@ -20,14 +20,13 @@ public class Library {
         return Collections.unmodifiableList(titles);
     }
 
-    public void addBook(String title) {
-        if (title == null || title.isEmpty()) {
+    public void addBook(Book book) {
+        if (book == null || book.getTitle().isEmpty()) {
             throw new IllegalArgumentException("Book title cannot be null or empty");
         }
-        Book newBook = new Book(title);
-        if (books.contains(newBook)) {
-            throw new IllegalArgumentException("Book with title '" + title + "' already exists");
-        } else books.add(newBook);
+        if (books.contains(book)) {
+            throw new IllegalArgumentException("Book with title '" + book.getTitle() + "' already exists");
+        } else books.add(book);
         sortBooks();
     }
 
