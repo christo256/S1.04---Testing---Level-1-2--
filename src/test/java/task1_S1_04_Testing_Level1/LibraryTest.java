@@ -69,7 +69,7 @@ public class LibraryTest {
     public void testRemoveBookDecreasesListSize() {
         library.addBook(new Book("Book 1"));
         library.addBook(new Book("Book 2"));
-        library.removeBook("Book 1");
+        library.removeBook(new Book("Book 1"));
         assertEquals(1, library.getBooks().size(), "List size should be 1 after removing a book");
         assertFalse(library.getBooks().contains("Book 1"), "List should no longer contain the removed book");
     }
@@ -85,7 +85,7 @@ public class LibraryTest {
         assertEquals("Ouija", library.getBooks().get(2));
         assertEquals("The house", library.getBooks().get(3));
 
-        library.removeBook("Mars");
+        library.removeBook(new Book("Book 1"));
         assertEquals("Angus", library.getBooks().get(0));
         assertEquals("Ouija", library.getBooks().get(1));
         assertEquals("The house", library.getBooks().get(2));

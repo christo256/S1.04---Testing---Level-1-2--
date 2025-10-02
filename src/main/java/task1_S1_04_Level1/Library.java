@@ -37,14 +37,13 @@ public class Library {
         return books.get(position).getTitle();
     }
 
-    public void removeBook(String title) {
-        if (title == null || title.isEmpty()) {
+    public void removeBook(Book book) {
+        if (book == null || book.getTitle().isEmpty()) {
             throw new IllegalArgumentException("Book title cannot be null or empty");
         }
-        Book bookToRemove = new Book(title);
-        boolean removed = books.remove(bookToRemove);
+        boolean removed = books.remove(book);
         if (!removed) {
-            throw new IllegalArgumentException("Book with title '" + title + "' not found");
+            throw new IllegalArgumentException("Book with title '" + book + "' not found");
         }
         sortBooks();
     }
