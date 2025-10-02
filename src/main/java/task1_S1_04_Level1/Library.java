@@ -17,7 +17,7 @@ public class Library {
         for (Book book : books) {
             titles.add(book.getTitle());
         }
-        return titles;
+        return Collections.unmodifiableList(titles);
     }
 
     public void addBook(String title) {
