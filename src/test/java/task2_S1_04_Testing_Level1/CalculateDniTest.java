@@ -1,6 +1,7 @@
 package task2_S1_04_Testing_Level1;
 
 
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import task2_S1_04_Level1.CalculateDni;
@@ -25,6 +26,20 @@ public class CalculateDniTest {
     void testCalculateDNI(int dniNumber, char expectedLetter) {
         char result = CalculateDni.calculateDni(dniNumber);
         assertEquals(expectedLetter, result);
+    }
+
+    @Test
+    void testCalculateDni_negativeNumber() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            CalculateDni.calculateDni(-12345678);
+        });
+    }
+
+    @Test
+    void testCalculateDni_numberTooLarge() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            CalculateDni.calculateDni(100000000);
+        });
     }
 }
 
