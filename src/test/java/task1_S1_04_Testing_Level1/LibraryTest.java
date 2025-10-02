@@ -85,7 +85,7 @@ public class LibraryTest {
         assertEquals("Ouija", library.getBooks().get(2));
         assertEquals("The house", library.getBooks().get(3));
 
-        library.removeBook(new Book("Book 1"));
+        library.removeBook(new Book("Mars"));
         assertEquals("Angus", library.getBooks().get(0));
         assertEquals("Ouija", library.getBooks().get(1));
         assertEquals("The house", library.getBooks().get(2));
